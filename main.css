@@ -1,0 +1,103 @@
+html, body  {
+	margin: 0;
+	padding: 0;
+	min-width: 1000px;
+	font-family: Arial , sans-serif;
+	font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.black_bar {
+background-color:black;
+height: 55px;
+padding: 20px 0;
+color: white;
+}
+
+#anchor {
+	float: left;
+}
+
+#anchor a {
+	color: white;
+}
+
+#date {
+float: right;
+}
+
+#headin {
+margin-top:40px;
+height: 45px;
+position: relative;
+
+}
+
+#logo {
+ float: left;
+ padding-top: 2px;
+}
+
+#city {
+float: left;
+margin-left: 40px;
+padding-top: 16px;
+
+}
+
+#weather {
+	height: 25px;
+	background-image: url(../img/weather.png) no-repeat ; 
+	background-position: left;
+	float:right;
+	font-size: 16px;
+	position: relative;
+	margin-right: 50px;
+	padding-top: 14px;
+	color:#b2b2bb;
+}
+
+#search {
+	float: right;
+	padding: 0 20px;
+	border: 0;
+	display: block;
+	border-radius: 30px;
+	background-color:#cccc;
+	width: 320px;
+	height: 45px;
+}
+
+#menu {
+}
+
+.nav {
+	padding-top: 40px;
+
+}
+
+.nav_link {
+	color: #000;
+	text-decoration:none;   /*– отмена подчеркивания ссылок*/
+}
+
+.nav span {
+	padding:0 10px;
+}
