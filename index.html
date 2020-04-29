@@ -1,84 +1,68 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-	<title>Новостное агенство</title>
-	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="main.css">
-</head>
-<body>
+	<head>
+		<title>Новостное агенство</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<header>
+			<div class="up_header">
+				<div class="clearfix container">
+					<h1 id="title">  Самые <a href="#"> свежие новости</a> свежие новости в реальном времени  </h1>
 
-</body> 		
-	<div class="black_bar">
-		<div class="clearfix container">
-			<div id="anchor">
-			Самые <a href="#"> свежие новости</a> свежие новости в реальном времени
+					<time datetime="2019-06-19T12:30">12:30 19.06.2019</time>
+				</div>
 			</div>
-			<div id="date">12:30 19.06.2019</div>
-		</div>
-	</div>
-	<header>
-		<section>
-			<div class="container clearfix">
-				<div id="headin">
-					<img src="logo.png" alt="Логотип" id="logo">
-					<form id="city">
-						<select>
-							<option>
-								<a href="#">Москва</a>
-							</option>
 
-							<option>
-								<a href="#">Санкт-Петербург</a>
-							</option>
+			<div class="down_header">
+				<div class="clearfix container">
+					<a href="">  <img id="logo" src="img/logo.png" alt="Новостное агентство">  </a>
 
-							<option>
-								<a href="#">Казань</a>
-							</option>
-						</select>
+					<form>
+						<label class="select-wrapper">
+							Выбор города
+							<select class="custom-select">
+								<option value="Msc">Москва</option>
+								<option value="Tver">Тверь</option>
+								<option value="Kazan">Казань</option>
+							</select>
+						</label>
 					</form>
+
+					<time class="clock" datetime="2019-06-19T12:30">12 июня, вторник  <span>10:48</span>  </time>
 
 					<div>
 						<form>
-							<input id="search" type="search" name="q" placeholder="Поиск по сайту">
-							<label for="search"></label>
+							<input class="search" type="search" name="search" aria-label="Поиск по сайту" placeholder="Поиск по сайту">
 						</form>
 					</div>
-				
-					<div class="weather">+22 C</div>
+
+					<div class="weather">+22&deg;C</div>
 				</div>
 			</div>
-		</section>
-		<div id="menu">
-		<nav class="nav">
-			<div class="container clearfix">
 
-				<a class="nav_link" href="#">Главная</a>	<span>/</span>
+			<nav class="menu">
+				<div class="container clearfix">
+					<a class="menu_item" href="#home">Главная</a>  <span>/</span>
+					<a class="menu_item" href="#">Политика</a>  <span>/</span>
+					<a class="menu_item" href="#">Общество</a>  <span>/</span>
+					<a class="menu_item" href="#">Экономика</a>  <span>/</span>
+					<a class="menu_item" href="#">В мире</a>  <span>/</span>
+					<a class="menu_item" href="#">Происшествия</a>  <span>/</span>
+					<a class="menu_item" href="#">Спорт</a>  <span>/</span>
+					<a class="menu_item" href="#">Наука</a>  <span>/</span>
+					<a class="menu_item" href="#">Туризм</a>
+				</div>
+			</nav>
+		</header>
 
-					<a class="nav_link" href="#">Политика</a>	<span>/</span>
-
-					<a class="nav_link" href="#">Общество</a>	<span>/</span>
-
-					<a class="nav_link" href="#">Экономика</a>	<span>/</span>
-
-					<a class="nav_link" href="#">В мире</a>	<span>/</span>
-
-					<a class="nav_link" href="#">Происшествия</a>	<span>/</span>
-
-					<a class="nav_link" href="#">Спорт</a>	<span>/</span>
-
-					<a class="nav_link" href="#">Наука</a>	<span>/</span>
-
-					<a class="nav_link" href="#">Туризм</a>
-			</div>
-		</nav>
-		</div>
-			
-	</header>
-
-	<main>
+		<main>
 		
-	</main>
+		</main>
 
-	<footer>
+		<footer>
 		
-	</footer>
+		</footer>
+	</body>
+</html>
