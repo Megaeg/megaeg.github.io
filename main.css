@@ -47,7 +47,6 @@ float: right;
 margin-top:40px;
 height: 45px;
 position: relative;
-background-color: red;
 background:url(weather.png) 57% no-repeat;
 }
 
@@ -60,10 +59,10 @@ background:url(weather.png) 57% no-repeat;
 float: left;
 margin-left: 40px;
 padding-top: 16px;
-
 }
 
 .weather {
+	background-color: red;
 	float:right;
 	font-size: 16px;
 	position: relative;
