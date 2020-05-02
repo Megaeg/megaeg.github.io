@@ -86,7 +86,7 @@ html, body {
 1. отведем для нее место; */
 	padding-right: 15px;
 /* добавим ее фоном */
-	background: url(../img/arrow.png) 100% no-repeat;
+	background: url(arrow.png) 100% no-repeat;
 	background-size: 10px;
 }
 
@@ -97,7 +97,7 @@ html, body {
 
 .clock span {
 	margin-left:20px;
-	background:url(../img/clock.png);
+	background:url(clock.png);
 	background-position: left center;
 	background-size: auto 100%;
 	display: inline-block;
@@ -111,7 +111,7 @@ html, body {
 	position: relative;
 	bottom: 5px;
 	color:#b2b2bb;
-	background:url(../img/weather.png);
+	background:url(weather.png);
 	background-position: left center;
 	background-size: auto 100%;
 	display: block;
@@ -155,7 +155,7 @@ html, body {
 }
 
 .main {
-		background:url(../img/bg-top.png);
+		background:url(bg-top.png);
 }
 
 .high-main {
@@ -198,7 +198,7 @@ html, body {
 	padding-left: 20px;
 	position: absolute;
 	left: 120px;
-	background:url(../img/clock.png);
+	background:url(clock.png);
 	background-position: left center;
 	background-size: auto 100%;
 	background-repeat: no-repeat;
@@ -209,7 +209,7 @@ html, body {
 	position: relative;
 	bottom: 15px;
 	left: 180px;
-	background: url(../img/comments.png);
+	background: url(comments.png);
 	background-position: left center;
 	background-size: auto 100%;
 	background-repeat: no-repeat;
@@ -243,7 +243,7 @@ html, body {
 	position: relative;
 	bottom: 15px;
 	left: 160px;
-	background: url(../img/comments.png);
+	background: url(comments.png);
 	background-position: left center;
 	background-size: auto 100%;
 	background-repeat: no-repeat;
@@ -276,7 +276,7 @@ html, body {
 
 #main-news time span {
 	margin-left:20px;
-	background:url(../img/news-1-clock.png) no-repeat;
+	background:url(news-1-clock.png) no-repeat;
 	background-position: left center;
 	background-size: auto 100%;
 }
@@ -367,7 +367,7 @@ html, body {
 
 .most-read-news-item time span {
 	margin-left:20px;
-	background:url(../img/clock.png) no-repeat;
+	background:url(clock.png) no-repeat;
 	background-position: left center;
 	background-size: auto 100%;
 	position: absolute;
@@ -384,7 +384,7 @@ html, body {
 	padding-left: 20px;
 	position: absolute;
 	left: 220px;
-	background: url(../img/comments.png);
+	background: url(comments.png);
 	background-position: left center;
 	background-size: auto 100%;
 	background-repeat: no-repeat;
@@ -420,7 +420,7 @@ html, body {
 #most-read-news-important time span {
 	padding-left: 20px;
 	margin-left:15px;
-	background:url(../img/news-1-clock.png) no-repeat;
+	background:url(news-1-clock.png) no-repeat;
 	background-position: left center;
 	background-size: auto 100%;
 }
@@ -529,7 +529,7 @@ html, body {
 	padding-left: 30px;
 	text-decoration: none;
 	color: #c5c6ca;
-	background: url(../img/tel.png) no-repeat;
+	background: url(img/tel.png) no-repeat;
 	background-position: left center;
 }
 
@@ -537,7 +537,7 @@ html, body {
 	padding-left: 30px;
 	text-decoration: none;
 	color: #c5c6ca;
-	background: url(../img/email.png) no-repeat;
+	background: url(img/email.png) no-repeat;
 	background-position: left center;
 }
 
