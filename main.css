@@ -136,10 +136,11 @@ html, body {
 	border: 0;
 	border-radius: 25px;
 	position: relative;
-	padding: 0 20px;
-	left: 320px;
-	top: 13px;
+	padding: 7px 7px;
+	top: 5px;
+	left: 310px;
 	outline: none;
+	background-color: #f3f3f3 ;
 }
 
 .menu {
