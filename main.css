@@ -109,7 +109,8 @@ html, body {
 	float:right;
 	margin-right: 40px;
 	position: relative;
-	bottom: 5px;
+	top: 15px;
+	left: 20px;
 	color:#b2b2bb;
 	background:url(weather.png);
 	background-position: left center;
