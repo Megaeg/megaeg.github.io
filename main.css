@@ -1,0 +1,550 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	min-width: 1000px;
+	font:16px Arial , sans-serif;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+.clearfix:after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.up_header {
+	background-color:black;
+	height: 56px;
+	padding: 20px 0;
+	color: white;
+}
+
+#title {
+	margin: 0;
+	padding: 0;
+	font:16px Arial , sans-serif;
+	float: left;
+}
+
+#title a {
+	color: white;
+}
+
+.up_header time {
+	float: right;
+}
+
+.down_header {
+	margin:40px 0;
+	height:45px;
+	position:relative;
+	box-sizing: border-box;
+}
+
+#logo {
+	float: left;
+	margin: 2px 63px 0 0;
+}
+
+.select-wrapper {
+	float: left;
+	position: relative;
+	margin: 16px 50px 0 0;
+/* обнуляем шрифт, чтобы убрать текст label */
+	font-size: 0;
+}
+
+.select-wrapper:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 15px;
+	height: 1px;
+	border-bottom: 2px dashed #448ccb;
+}
+
+.custom-select {
+	border: 0;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+/* Восстанавливаем шрифт */
+	font-size: 16px;
+/* для того, чтобы задать саму стрелку:
+1. отведем для нее место; */
+	padding-right: 15px;
+/* добавим ее фоном */
+	background: url(../img/arrow.png) 100% no-repeat;
+	background-size: 10px;
+}
+
+.clock {
+	float: left;
+	margin-top:16px;
+}
+
+.clock span {
+	margin-left:20px;
+	background:url(../img/clock.png);
+	background-position: left center;
+	background-size: auto 100%;
+	display: inline-block;
+	padding-left: 30px;
+	background-repeat: no-repeat;
+}
+
+.weather {
+	float:right;
+	margin-right: 40px;
+	position: relative;
+	bottom: 5px;
+	color:#b2b2bb;
+	background:url(../img/weather.png);
+	background-position: left center;
+	background-size: auto 100%;
+	display: block;
+	padding-left: 30px;
+	background-repeat: no-repeat;
+}
+
+.search {
+	float: right;
+	border: 0;
+	box-sizing: border-box;
+	padding: 0 0 0 15px;
+	height: 45px;
+	width: 320px;
+	border-radius: 32px;
+	background-color: #f3f3f3 ;
+	outline: none;
+}
+
+.search_button {
+	float: right;
+	border: 0;
+	border-radius: 25px;
+	position: relative;
+	padding: 0 20px;
+	left: 320px;
+	top: 13px;
+	outline: none;
+}
+
+.menu {
+	margin: 40px 0;
+}
+
+.menu_item {
+	color: #000;
+/*– отмена подчеркивания ссылок*/
+	text-decoration:none;
+	font:16px Areal, sans-serif;
+	margin-right: 20px;
+}
+
+.main {
+		background:url(../img/bg-top.png);
+}
+
+.high-main {
+	overflow: auto;
+	padding-top: 20px;
+}
+
+#left-aside {
+	float: left;
+	width: 250px;
+	background-color: #ffffff;
+	position: relative;
+	font-size: 12px;
+	padding-left: 20px;
+}
+
+#left-aside h2 {
+	padding: 0px 0 30px;
+	font-size: 20px;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 30px;
+}
+
+.news-item {
+	margin-top: 28px;
+}
+
+.news-item-text {
+	font-size: 14px;
+	margin-bottom: 23px;
+}
+
+.news-item-props a {
+	color: #aaaab5;
+	text-decoration : none;
+	font-size: 12px;
+}
+
+.news-time {
+	padding-left: 20px;
+	position: absolute;
+	left: 120px;
+	background:url(../img/clock.png);
+	background-position: left center;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+}
+
+.news-item-comments {
+	padding-left: 20px;
+	position: relative;
+	bottom: 15px;
+	left: 180px;
+	background: url(../img/comments.png);
+	background-position: left center;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+}
+
+.news-container {
+	float: left;
+	width: 460px;
+	margin: 0 20px;
+	position: relative;
+	font-size: 12px;
+}
+
+.news-container h2 {
+	display: none;
+	text-align: center;
+}
+
+.news-container h3 {
+	margin:10px 0 20px 0;
+	font-size: 14px;
+}
+
+.news-container time {
+	margin-top: 0;
+	position: absolute;
+}
+
+.news-container-comments {
+	padding-left: 20px;
+	position: relative;
+	bottom: 15px;
+	left: 160px;
+	background: url(../img/comments.png);
+	background-position: left center;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+}
+
+#main-news {
+	width: 100%;
+}
+
+#main-news img {
+	width: 460px;
+}
+
+#main-news h3 {
+	position: absolute;
+	top: 135px;
+	left: 20px;
+	font-size: 30px;
+	color: white;
+}
+
+#main-news time {
+	margin-top: 15px;
+	position: absolute;
+	top: 250px;
+	left: 20px;
+	font-size: 12px;
+	color: white;
+}
+
+#main-news time span {
+	margin-left:20px;
+	background:url(../img/news-1-clock.png) no-repeat;
+	background-position: left center;
+	background-size: auto 100%;
+}
+
+#main-news a {
+	position: absolute;
+	top: 100px;
+	left: 20px;
+	text-decoration : none ;
+	color: #f7f8fa;
+}
+
+.news-container-left {
+	float: left;
+	width: 220px;
+}
+
+.news-container-left-item {
+	margin-top: 10px;
+}
+
+.news-container-left-item a {
+	text-decoration: none;
+	color: #a9a9a9;
+	font-size: 12px;
+}
+
+.news-container-right {
+	float: right;
+	width: 220px;
+}
+
+.news-container-right-item {
+	margin-top: 10px;
+}
+
+.news-container-right-item a {
+	text-decoration: none;
+	color: #a9a9a9;
+	font-size: 12px;
+}
+
+#right-aside {
+	margin-top:0px;
+	float: right;
+	width: 250px;
+}
+
+#right-aside img {
+	margin-bottom: 20px;
+}
+
+.most-read-news {
+	background-color: #ffffff;
+}
+
+.most-read-news-article {
+	float: right;
+	width: 410px;
+	position: relative;
+}
+
+.most-read-news-article h2 {
+	padding: 0px 0 30px 20px;
+	font-size: 20px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+.most-read-news-item {
+	margin-bottom:50px;
+	padding-left: 20px;
+	position: relative;
+}
+
+.most-read-news-item h3 {
+	font-size: 16px;
+}
+
+.most-read-news-item time {
+	margin-top: 15px;
+	position: absolute;
+	top: 37px;
+	left: 100px;
+	bottom: 20px;
+	font-size: 12px;
+	color: #000;
+}
+
+.most-read-news-item time span {
+	margin-left:20px;
+	background:url(../img/clock.png) no-repeat;
+	background-position: left center;
+	background-size: auto 100%;
+	position: absolute;
+}
+
+.most-read-news-item a {
+	font-size: 12px;
+	position: absolute;
+	text-decoration : none ;
+	color: #a9a9a9;
+}
+
+.most-read-news-item-comments {
+	padding-left: 20px;
+	position: absolute;
+	left: 220px;
+	background: url(../img/comments.png);
+	background-position: left center;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	font-size: 12px;
+}
+
+#most-read-news-important {
+	position: relative;
+	float: left;
+}
+
+#most-read-news-important img {
+	width: 100%
+}
+
+#most-read-news-important h3 {
+	position: absolute;
+	top: 115px;
+	left: 20px;
+	font-size: 30px;
+	color: white;
+}
+
+#most-read-news-important time {
+	margin-top: 15px;
+	position: absolute;
+	top: 240px;
+	left: 20px;
+	font-size: 12px;
+	color: white;
+}
+
+#most-read-news-important time span {
+	padding-left: 20px;
+	margin-left:15px;
+	background:url(../img/news-1-clock.png) no-repeat;
+	background-position: left center;
+	background-size: auto 100%;
+}
+
+#most-read-news-important a {
+	position: absolute;
+	font-size: 12px;
+	top: 100px;
+	left: 20px;
+	text-decoration : none ;
+	color: #f7f8fa;
+}
+
+#most-read-news-important p {
+	position: absolute;
+	font-size: 14px;
+	bottom: 30px;
+	left: 20px;
+	color: #f7f8fa;
+}
+
+.footer {
+	margin-top: 60px;
+	background-color: #00122f;
+	padding:60px 0 0 0;
+	color: #ffffff;
+}
+
+.high-footer {
+	overflow: auto;
+}
+
+.sitemap {
+	float: left;
+}
+
+#sidebar-1 {
+	margin:0px;
+	padding: 0px;
+	float: left;
+	list-style: none;
+}
+
+#sidebar-2 {
+	margin:0px;
+	padding: 0px;
+	float:left;
+	margin-left: 60px;
+	list-style: none;
+}
+
+#sidebar-1 li {
+	margin-bottom: 20px;
+}
+
+#sidebar-2 li {
+	margin-bottom: 20px;
+}
+
+.sitemap a {
+	color: #ffffff;	
+	display: block;
+	text-decoration: none;
+	margin-bottom: 5px;
+}
+
+.about-agency {
+	float:left;
+	margin-left: 200px;
+}
+
+.about-us{
+	margin:0px;
+	padding: 0px;
+	list-style: none;
+}
+
+.about-us li {
+	margin-bottom: 20px;
+}
+
+.about-agency a {
+	color: #ffffff;
+	text-decoration : none;
+}
+
+.social {
+	padding: 0;
+	float: right;
+}
+
+.social img + img {
+	margin-left: 20px;
+}
+
+.contact {
+	margin-top: 40px;
+	font-size: 18px;
+}
+
+#tel {
+	margin-bottom: 30px;
+}
+
+#tel a{
+	padding-left: 30px;
+	text-decoration: none;
+	color: #c5c6ca;
+	background: url(../img/tel.png) no-repeat;
+	background-position: left center;
+}
+
+#email a{
+	padding-left: 30px;
+	text-decoration: none;
+	color: #c5c6ca;
+	background: url(../img/email.png) no-repeat;
+	background-position: left center;
+}
+
+.copyright {
+	padding: 20px 0;
+	margin-top: 57px;
+	border-top: 1px solid #26354e;
+	color: #7f848d;
+	text-align: center;
+}
